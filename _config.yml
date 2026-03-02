@@ -1,0 +1,15 @@
+title: "get ntsiba | Market Research Analyst"
+description: "Portfolio showcasing Market Research, Competitive Analysis, and Business Plans and more"
+url: "https://username.github.io" # Change 'username' to your actual username
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "work"
